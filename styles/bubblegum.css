@@ -2,8 +2,7 @@ body {
 	text-align:center;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	color:#000066;
-	background:#0000cc url('images/bg.gif') repeat-x;
-	/*background-color:#0099FF;*/
+	background:#0000cc url('../images/bg.gif') repeat-x;
 	}
 h1, h2, h3, h4, h5, h6 {
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -141,28 +140,28 @@ code {
 #steps a:active {
 	}
 #step1 {
-	background: #ffffff url('images/step-1.jpg') center;
+	background: #ffffff url('../images/step-1.jpg') center;
 	}
 #step2 {
-	background: #ffffff url('images/step-2.jpg')	center;
+	background: #ffffff url('../images/step-2.jpg')	center;
 	}
 #step3 {
-	background: #ffffff url('images/step-3.jpg')	center;
+	background: #ffffff url('../images/step-3.jpg')	center;
 	}
 #step4 {
-	background: #ffffff url('images/step-4.jpg')	center;
+	background: #ffffff url('../images/step-4.jpg')	center;
 	}
 #step5 {
-	background: #ffffff url('images/step-5.jpg')	center;
+	background: #ffffff url('../images/step-5.jpg')	center;
 	}
 #step6 {
-	background: #ffffff url('images/step-6.jpg')	center;
+	background: #ffffff url('../images/step-6.jpg')	center;
 	}
 #step7 {
-	background: #ffffff url('images/step-7.jpg')	center;
+	background: #ffffff url('../images/step-7.jpg')	center;
 	}
 #step8 {
-	background: #ffffff url('images/step-8.jpg')	center;
+	background: #ffffff url('../images/step-8.jpg')	center;
 	}
 .alert {
 	border: 1px solid #f6682d;
@@ -171,7 +170,7 @@ code {
 	width: 478px; /* because internet explorer can't figure this out on it's own.. */
 	}
 .alert p {
-	background-image: url('images/exc.png');
+	background-image: url('../images/exc.png');
 	background-position:top left;
 	background-repeat:no-repeat;
 	padding-left:74px;
@@ -203,3 +202,12 @@ code {
 	border-bottom:none;
 	display:inline;
 	}
+
+/** the curvy corners - this was originally done using JS before any browsers supported border-radius (yep, it's that old) */
+#main, .alert {
+	border-radius: 20px;
+}
+
+#menu {
+	border-radius: 0 20px 20px 0;
+}
