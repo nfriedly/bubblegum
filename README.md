@@ -17,9 +17,9 @@ You'll mainly want to use `template.htm` and `styles/bubblegum.css` however some
 History
 -------
 
-v1 - Initial project for College
-v2 - Converted to template
-v3 - Removed Javascript and instead applied rounded corners via CSS. Moved to GitHub.
+* v1 - Initial project for College
+* v2 - Converted to template
+* v3 - Removed Javascript and instead applied rounded corners via CSS. Moved to GitHub.
 
 Creative Commons Attribution License
 ------------------------------------
