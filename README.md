@@ -4,6 +4,8 @@ Bubblegum
 This is a project that I put together back in college for one of my early CIS classes.
 This was back before the css `border-radius` property even existed; the big deal was that it had rounded corners without images!
 
+See it live at http://nfriedly.github.io/bubblegum/ and http://nfriedly.github.io/bubblegum/template.htm
+
 Use
 ---
 
